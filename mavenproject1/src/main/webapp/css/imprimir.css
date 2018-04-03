@@ -1,0 +1,18 @@
+header, nav, aside, footer, figure {
+    display: none !important;
+}
+body {
+    float: none !important;
+    width: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+body {
+    color: black;
+    font: 100%/150% georgia, "times new roman", Times, serif;
+ }
+
+a:after {
+	content:" <" attr(href) ">";
+}
